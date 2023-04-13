@@ -53,4 +53,3 @@ const STATUS_MAP = {
     checkinButtons[i].disabled = !statusInfo.canCheckIn;
     checkinButtons[i].style.color = checkinButtons[i].disabled ? 'gray' : 'black';
   }
-  
