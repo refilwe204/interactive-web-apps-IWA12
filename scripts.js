@@ -26,8 +26,10 @@ const STATUS_MAP = {
       canCheckIn: true,
     }
   };
+
+  // Edit below line
   
-  // Select all the elements
+  // Create and select all the elements
   const statusElements = document.querySelectorAll('.status');
   const reserveButtons = document.querySelectorAll('.reserve');
   const checkoutButtons = document.querySelectorAll('.checkout');
